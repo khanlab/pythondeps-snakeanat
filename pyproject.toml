@@ -5,7 +5,7 @@ description = "Containerized python environment"
 authors = ["Ali Khan <alik@robarts.ca>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<3.12"
 pathxf = "^0.0.3"
 SimpleItk = "^2.2.1"
 
