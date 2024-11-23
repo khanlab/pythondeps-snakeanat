@@ -5,7 +5,7 @@ description = "Containerized python environment"
 authors = ["Ali Khan <alik@robarts.ca>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.12"
+python = ">=3.10,<3.12"
 pathxf = {git = "https://github.com/pvandyken/pathxf.git", rev = "main"}
 SimpleItk = "^2.2.1"
 
