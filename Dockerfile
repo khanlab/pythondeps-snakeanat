@@ -3,4 +3,4 @@ MAINTAINER <ali.khan@uwo.ca>
 
 COPY . .
 
-RUN pip install --no-cache-dir .
+RUN apt install -y git && pip install --no-cache-dir .
