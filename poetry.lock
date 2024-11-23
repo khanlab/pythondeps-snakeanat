@@ -53,22 +53,26 @@ files = [
 
 [[package]]
 name = "pathxf"
-version = "0.0.3"
+version = "0.0.0"
 description = ""
 category = "main"
 optional = false
 python-versions = ">=3.9,<3.12"
-files = [
-    {file = "pathxf-0.0.3-py3-none-any.whl", hash = "sha256:55c54a02694e518ec127fc063bc14cb3b38ce900053b4d126b4ecbb83a903b16"},
-    {file = "pathxf-0.0.3.tar.gz", hash = "sha256:67112e4ddc62678fc19d4866dde446dc03c17d24755a372650c3d9da9efdd530"},
-]
+files = []
+develop = false
 
 [package.dependencies]
-appdirs = ">=1.4.4,<2.0.0"
-more-itertools = ">=9.0,<10.0"
-pyyaml = ">=6.0,<7.0"
-typer = ">=0.7.0,<0.8.0"
-typing-extensions = ">=4.5.0,<5.0.0"
+appdirs = "^1.4.4"
+more-itertools = "^9.0"
+pyyaml = "^6.0"
+typer = "^0.7.0"
+typing-extensions = "^4.5.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/pvandyken/pathxf.git"
+reference = "main"
+resolved_reference = "f321e5a2db978c282cbfe9c0fa6540a0ecc5eb16"
 
 [[package]]
 name = "pyyaml"
@@ -199,4 +203,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12"
-content-hash = "2ae031332703d4cb0568bf4b74c4157681b0eaa680a02937911574980f976d58"
+content-hash = "519be6c42c758edc8fe5209ca2d286af525e6d9b9a24a2c5924f665def8e4e17"
